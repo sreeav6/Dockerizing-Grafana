@@ -1,9 +1,9 @@
 # Dockerizing-Grafana
 
-#In this tutorial we will learn how to dockerize grafana. We will also explore how to access it.
+In this tutorial we will learn how to dockerize grafana. We will also explore how to access it.
 
 
-#Docker File Usage:
+Docker File Usage:
 
     We will use ubuntu latest as base image
     We use Arg inorder to avoid disruption during package installations 
@@ -14,7 +14,7 @@
     Expose port 3000 for the Grafana 
     Finally we will start the grafana server using the custom configuration file (grafana.ini)
 
-#Grafana.ini Usage: 
+Grafana.ini Usage: 
 
     http_port = 3000 sets the port on which port Grafana can be accessible.
     Grafana's admin username and password are specified under the security section.
