@@ -27,5 +27,15 @@ Make sure you run the Docker command in the same directory where the Dockerfile 
 ```bash
 sudo docker build -t grafana:1.0.0 .
 ```
+## Run the Docker Image
+
+```bash
+sudo docker docker run -p 3000:3000 grafana:1.0.0
+```
+
+## Access the Grafana Dashboard
+
+After running the above command, access Grafana UI in the browser using the URL localhost:3000, you can see the following
+The username and password are admin which you have given in the grafana.ini file.
 
 
